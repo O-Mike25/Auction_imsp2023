@@ -10,9 +10,7 @@ Welcome to the Online Auction Application! This online platform allows you to cr
 
 3. **Online Auctions:** Create auctions for your items, bid on coveted objects, follow live auctions, and receive notifications for won bids.
 
-4. **Sales History:** Comprehensive record of each auction, including bidders and final prices, for future reference.
-
-5. **Automated Notifications:** Automatic alerts for won auctions and final results. Item owners are also informed of auction winners.
+4. **Automated Notifications:** Automatic alerts for won auctions and final results. Item owners are also informed of auction winners.
 
 ## Technologies 
 
@@ -24,22 +22,19 @@ Welcome to the Online Auction Application! This online platform allows you to cr
 
 1. Clone this repository to your local machine.
 2. Install dependencies by running `npm install` or `pnpm install` in the root directory.
-3. Create a `.env` file in the project root and configure your environment variables using the provided `.env.example` template. Replace values with your configuration details.
+3. Replace the values with your configuration details especially the firebase access settings in the `/domain/firebase/config.ts` file.
 4. Start the application with the command `npm start` or `pnpm start`.
 5. Access the application in your browser at `http://localhost:5173`.
 
 ## Deployment
 
-The application is deployed on Netlify for instant online accessibility. You can access it by visiting [application-link](application-link).
+The application is deployed on Netlify for instant online accessibility. You can access it by visiting [auction-bj.netlify.app](https://auction-bj.netlify.app/).
 
 ## Authors
-
-[Your Name]
+[fawaz27](https://github.com/fawaz27), [Ruchdane](https://github.com/Ruchdane), [O-Mike25](https://github.com/O-Mike25)
 
 ## License
 
 This project is licensed under the MIT License. See the `LICENSE` file for more information.
-
-Enjoy your online auction experience! For assistance, contact [your email address].
 
 **Note:** The Online Auction Application is a fictional project created for educational and demonstrative purposes.
